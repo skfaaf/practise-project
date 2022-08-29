@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Classes </title>
+    <link rel="stylesheet" href="project.css">
+    <style>
+      input[type=text1], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit1] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit1]:hover {
+  background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.containerr {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+    </style>
+
+</head>
+<body>
+    <!-- <img src="bg.jpg.jpg" alt="pic">'  -->
+    <!-- <div class="logo"><img src="pics/istockphoto-1151572863-612x612.jpg" alt="pic"></div>  -->
+   <nav class="navbar">
+       <ul class="nav-list"> 
+        <div class="logo"><img src="pics/istockphoto-1151572863-612x612.jpg" alt="pic"></div> 
+        <!-- <h1 style="color:rgb(220, 226, 231);">Welcome</h1> -->
+         <li><a href="project1.html">Home</a></li>
+         <li><a href="project1 - Copy.html">About</a></li>
+         <li><a href="project1 - Copy (2).html">Courses</a></li>
+         <li><a href="project1 - Copy (3).html">Contact </a></li>
+       </ul>
+
+   </nav>
+   <nav class="searchbar">
+   
+    <input type="text" name="search" id="search" placeholder="Search..........">
+    <button class="search">Search</button>
+    <div class="login">
+    <button onclick="document.location='Logincopy.html'">Login</button>
+    <div class="register">
+        <button onclick="document.location='register.html'">Register</button>
+    </div>
+    </div>
+   </nav>
+<div class="mainbody">
+   
+    <div class="container">
+       
+        <img src="pics/3-D-wallpaper.jpg" alt="Snow" style="width:315.6%;height: 500px;">
+        <button class="btn1"><a href="webdesign.html">Web Designing</button></a>
+        <button class="btn2"><a href="Tally.html">Tally</button></a>
+        <button class="btn3"><a href="Typing.html">Typing</button></a>
+        <button class="btn4"><a href="Browsing.html">Browsing</button></a>
+        <button class="btn5"><a href="Hardware.html">Hardware</button></a>
+        <button class="btn6"><a href="codinh.html">Coding</button></a>
+      </div>
+  
+</div> 
+
+<center><h1 style="font-size: 45px;">CONTACT US</h1></center>
+
+<br><br>
+<center>
+<div class="containerr">
+  <form action="action_page.php">
+
+    <label for="fname">First Name</label>
+    <input type="text1" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text1" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="australia">India</option>
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+    </select>
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit1" value="Submit">
+
+  </form>
+</div>
+</center>
+</body>
+</html>

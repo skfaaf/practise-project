@@ -1,0 +1,49 @@
+.{
+ padding:0;
+ margin:0,
+
+}
+
+body{
+    background-image: url(pics/bg.jpg.jpg) ;
+    background-size: cover; 
+    background-repeat: no-repeat;
+}
+
+.loginform{
+    width: 350px;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+   
+}
+
+.loginform h1{
+    font-size: 40px;
+    text-align: center;
+    color: rgb(253, 250, 255);
+    font-family: system-ui;
+    
+}
+
+.loginform p{
+    font-size: 32px;
+    font-family: serif;
+    color: brown;
+}
+
+.loginform input{
+    font-size: 16px;
+    width: 100%;
+    padding: 15px 10px;
+    border: 0;
+    outline: none;
+    border-radius: 5px;
+}
+
+.loginform button{
+    
+}
+
+
